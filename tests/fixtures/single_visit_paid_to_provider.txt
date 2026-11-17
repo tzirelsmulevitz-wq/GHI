@@ -1,0 +1,93 @@
+Explanation of Benefits
+
+JANE DOE
+
+1 EXAMPLE RD
+
+SPRINGFIELD NY 11500-0000
+
+Explanation of Benefits (EOB)
+
+Why are you receiving this EOB?
+
+First things first. This is not a bill. This is an overview of claims we’ve processed for you.
+
+Here's a summary for you.
+
+Amount billed: $260.26 The total amount that your provider billed for the services
+
+Your plan paid: $100.13 The portion of the amount billed that was paid by your
+
+TOTAL YOU
+
+MAY OWE:
+
+$30.00 The portion of the amount billed that you may owe to the
+
+INDIVIDUAL OUT-OF-POCKET
+
+w/INTEGRATION
+
+$275.30 out of $7,150.00
+
+$6,874.70 to go
+
+Page 1
+
+Dist Code: MEP
+
+P.O. BOX 21534 EAGAN MN 55121
+
+212-501-4444 (TTY:711) ∙ nyceppo.com
+
+JOHN DOE Employee Employee Address
+
+Employer Name
+
+NYC Employees PPO Plan
+
+Notice Date
+
+10-26-26
+
+Patient: JANE DOE
+
+Claim Number:
+
+11111111111
+
+Provider Name:
+
+SAMPLE,ANNA,NP PNP RN
+
+Patient Account:
+
+12345678
+
+PLAN PAYS YOU PAY
+
+Service(s) you received
+
+Amount
+
+billed by
+
+provider
+
+MEDICAL EXAMINATION 908 10/16/26 $260.26 $130.13 $0.00 $100.13 100 $100.13 $30.00 $0.00 $0.00 $0.00 $30.00
+
+Totals
+
+Reason code Service date(s)
+
+$260.26 $130.13 $0.00 $100.13 $100.13 $30.00 $0.00 $0.00 $0.00
+
+$30.00
+
+Reason code explanations:
+
+908 Provider negotiated discount. You are not responsible for this amount.
+
+Plan payment(s) made on this EOB: Payment to: SAMPLE MEDICAL P.C. Payment date: 10-26-26 Payment amount: $100.13
+
+What if I don't agree with this claim decision?

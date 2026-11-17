@@ -1,0 +1,205 @@
+EmblemHealth
+
+UnitedHealthcare
+
+NYCE PPO PLAN PO BOX 21534 EAGAN MN 55121
+
+nyceppo.com
+
+JOHN DOE 1 EXAMPLE ROAD SPRINGFIELD NY 11500
+
+NYC EMPLOYEES PPO PLAN GROUP 00-000000
+
+Check No. 0000000001 Check Date 10-23-26
+
+Patient
+
+Dates of Service
+
+SAM
+
+08-25-26 TO 09-15-26
+
+Account Number Charge Amount
+
+Amount Paid
+
+500.00
+
+1,000.00
+
+251.62
+
+503.24
+
+PAY
+
+THREE HUNDRED SEVENTY SEVEN AND 43/100 ***
+
+To The Order Of
+
+JOHN DOE
+
+$*******377.43*
+
+SAM DOE
+
+Explanation of Benefits (EOB)
+
+Why are you receiving this EOB?
+
+Your plan paid:
+
+$377.43
+
+TOTAL YOU MAY OWE:
+
+$372.57
+
+Employee
+
+Employee Address
+
+Employer Name
+
+Notice Date
+
+Page 1 Dist Code: PR2
+
+JOHN DOE
+
+NYC Employees PPO Plan
+
+10-23-26
+
+Patient:
+
+SAM DOE
+
+Claim Number: 22222222222
+
+Provider Name:
+
+Patient Account:
+
+EXAMPLE, VICTOR,A,PHD
+
+PLAN PAYS
+
+YOU PAY
+
+Service(s) you received
+
+code
+
+Service date(s)
+
+PHYSICIAN MEDICAL
+
+533
+
+08/25/26
+
+$250.00
+
+$0.00
+
+$0.00
+
+$125.81
+
+100
+
+$125.81
+
+$0.00
+
+$0.00
+
+$0.00
+
+$124.19
+
+$124.19
+
+PHYSICIAN MEDICAL
+
+533
+
+09/01/26
+
+$250.00
+
+$0.00
+
+$0.00
+
+$125.81 100
+
+$125.81
+
+$0.00
+
+$0.00
+
+$0.00
+
+$124.19
+
+$124.19
+
+PHYSICIAN MEDICAL
+
+533
+
+09/08/26
+
+$250.00
+
+$0.00
+
+$0.00
+
+$125.81
+
+100 $125.81
+
+$0.00
+
+$0.00
+
+$0.00
+
+$124.19 $124.19
+
+Totals
+
+$750.00
+
+$0.00
+
+$0.00
+
+$377.43
+
+$377.43
+
+$0.00
+
+$0.00
+
+$0.00
+
+$372.57 $372.57
+
+Reason code explanations:
+
+533
+
+Your claim was processed at the out-of-network level of benefits.
+
+Plan payment(s) made on this EOB: Payment to: JOHN DOE
+
+Payment date: 10-23-26
+
+Payment amount: $377.43

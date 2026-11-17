@@ -1,0 +1,41 @@
+{
+  "inbox_folder_id": "<Drive folder id where EOBs are downloaded>",
+  "start_after": "2026-10-01",
+  "log_spreadsheet_id": "<id of the log spreadsheet>",
+  "summary_email": "you@example.com",
+  "notice_sender": "communications@mail.nyceppo.com",
+  "tracker": {
+    "spreadsheet_id": "<id of the claims tracker spreadsheet>",
+    "sheet": "All Claims",
+    "columns": {
+      "dos": "D.O.S.",
+      "type": "Type",
+      "patient": "Patient",
+      "provider": "Provider",
+      "status": "GHI",
+      "claim_number": "Claim #",
+      "paid": "GHI Paid",
+      "paid_to": "Paid To"
+    },
+    "status_value": "Completed",
+    "status_overwritable": [
+      "Submitted",
+      "Pending"
+    ],
+    "paid_to_provider": "Provider",
+    "paid_to_member": ""
+  },
+  "people": {
+    "JANE DOE": {
+      "short": "Jane",
+      "full": "Jane Doe",
+      "folder_id": "<Drive folder id for Jane>"
+    }
+  },
+  "providers": {
+    "SAMPLE": {
+      "tracker": "Sample",
+      "file": "Dr. Sample"
+    }
+  }
+}
