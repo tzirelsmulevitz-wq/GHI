@@ -5,8 +5,9 @@ the claims tracker, running entirely in the cloud.
 
 **How it works**
 
-1. You download a new EOB from nyceppo.com into the Drive inbox folder. The
-   portal blocks cloud servers, so this one step stays with you.
+1. You download a new EOB from nyceppo.com and save it to the **GHI EOB Inbox**
+   folder in Drive. The portal blocks cloud servers, so this one step stays
+   with you. Only that folder is ever read.
 2. A scheduled Claude cloud session follows [PROCEDURE.md](PROCEDURE.md): it
    reads each new PDF, files a renamed copy under
    `Claims by Person/<Name>/<Year> Claims/<DOS> - <Full Name> - <Provider>/`,

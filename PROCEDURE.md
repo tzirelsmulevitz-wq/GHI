@@ -12,6 +12,8 @@ spreadsheet ids, email) comes from that file, never from this repository.
   overwrite anything else, never add or delete rows.
 - Never commit, push or write any personal data (EOB text, names, ids) into this
   repository. Work files go in a scratch directory outside the checkout.
+- Only read PDFs in the inbox folder. Never open other Drive files except the
+  settings file, the log and the tracker.
 - Process at most 25 new PDFs per run; the rest wait for the next run.
 - If a step fails, log it, include it in the summary email, and carry on with the
   other files.

@@ -65,6 +65,12 @@ class FilingTests(unittest.TestCase):
         self.assertEqual(filings, [])
         self.assertIn("not in settings.people", issues[0])
 
+    def test_double_surname_matches_settings_on_last_word(self):
+        from ghi_eob.plan import provider_names
+        names, known = provider_names("PELCOVITZ SAMPLE,ANNA,LCSW", SETTINGS)
+        self.assertTrue(known)
+        self.assertEqual(names["tracker"], "Sample")
+
     def test_guess_names(self):
         self.assertEqual(guess_provider_names("SAMPLE,ANNA,NP PNP RN"), {"tracker": "Sample", "file": "Anna Sample"})
         self.assertEqual(guess_provider_names("ROE, RICHARD, M.D."), {"tracker": "Roe", "file": "Dr. Roe"})

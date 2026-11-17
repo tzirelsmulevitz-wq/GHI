@@ -35,7 +35,11 @@ def guess_provider_names(raw: str) -> dict:
 
 def provider_names(raw: str, settings: dict) -> tuple[dict, bool]:
     """Return ({'tracker', 'file'}, known) for a provider as printed on the EOB."""
-    known = settings.get("providers", {}).get(provider_key(raw))
+    providers = settings.get("providers", {})
+    key = provider_key(raw)
+    # Exact surname first; then the last word of a double surname
+    # ("PELCOVITZ HERRMANN" -> "HERRMANN").
+    known = providers.get(key) or providers.get(key.split()[-1] if key else "")
     if known:
         return known, True
     return guess_provider_names(raw), False
