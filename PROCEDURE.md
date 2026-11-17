@@ -31,12 +31,17 @@ prompt) and save its text exactly to `$WORK/settings.json`. Validate it with
 
 ## 2. Find new PDFs
 
-1. Read the log: `get_values` on `log_spreadsheet_id`, range `A:B`. Column B
-   holds every source file id already handled.
+1. Read the log: `get_values` on `log_spreadsheet_id`, range `A:D`. Column B
+   holds the source file ids already handled; column D their result. A source
+   whose latest result is `needs attention` is processed again every run (filing
+   is skipped as "already filed", the tracker only fills empty cells), so it is
+   picked up automatically once the problem is fixed, and keeps being reported
+   until then.
 2. Search the inbox with `search_files`:
    `parentId = '<inbox_folder_id>' and mimeType = 'application/pdf' and createdTime > '<start_after>T00:00:00Z'`
    (follow `nextPageToken`; `excludeContentSnippets: true`).
-3. Drop any file whose id is in the log. If nothing is left, go to step 6.
+3. Drop any file whose id is in the log, unless its latest result is `needs attention`.
+   If nothing is left, go to step 6.
 
 ## 3. Read each PDF
 
