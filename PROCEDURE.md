@@ -38,7 +38,7 @@ prompt) and save its text exactly to `$WORK/settings.json`. Validate it with
    picked up automatically once the problem is fixed, and keeps being reported
    until then.
 2. Search the inbox with `search_files`:
-   `parentId = '<inbox_folder_id>' and mimeType = 'application/pdf' and createdTime > '<start_after>T00:00:00Z'`
+   `parentId = '<inbox_folder_id>' and mimeType = 'application/pdf' and trashed = false and createdTime > '<start_after>T00:00:00Z'`
    (follow `nextPageToken`; `excludeContentSnippets: true`).
 3. Drop any file whose id is in the log, unless its latest result is `needs attention`.
    If nothing is left, go to step 6.
